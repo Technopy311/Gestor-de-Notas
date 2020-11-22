@@ -12,7 +12,7 @@
 <h3>
 You can find this readme in spanish too
 </h3>
-<a href="">
+<a href="https://github.com/Technopy311/Gestor-de-Notas/blob/main/README_es.md">
 	Spanish version.
 </a>
 
