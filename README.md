@@ -7,7 +7,7 @@ debe haber una carpeta llamada db y dentro de esta
 una subcarpeta llamada asig.
 debería verse así:
 
-<img src="https://github.com/Technopy311/Gestor-de-Notas/blob/main/estructura_carpetas.png" alt="Estructura de carpetas.">
+<img src="https://github.com/Technopy311/Gestor-de-Notas/blob/main/estructura_carpetas.png" alt="Estructura de carpetas." style="width=50%;height=50%;">
 
 ## Cambiando las variables de carpetas
 En main.py en las líneas 5 y 6, encontrarás
