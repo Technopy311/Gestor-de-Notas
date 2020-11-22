@@ -7,13 +7,14 @@ debe haber una carpeta llamada db y dentro de esta
 una subcarpeta llamada asig.
 debería verse así:
 
-<img src="https://github.com/Technopy311/Gestor-de-Notas/blob/main/estructura_carpetas.png" alt="Estructura de carpetas." style="width=50%;height=50%;">
+<img src="https://github.com/Technopy311/Gestor-de-Notas/blob/main/estructura_carpetas.png" alt="Estructura de carpetas." style="width=637px;height=317px">
 
 ## Cambiando las variables de carpetas
 En main.py en las líneas 5 y 6, encontrarás
 dos variables globales, las cuales indican 
-las carpetas a usar para guardar los archivos
-estas las puedes modificar a tu antojo según tu 
+las carpetas a usar para guardar los archivos.
+  <img src="https://github.com/Technopy311/Gestor-de-Notas/blob/main/variables_globales.png" alt="Variables globales." style="width=637px;height=317px">
+Estas las puedes modificar a tu antojo según tu 
 necesidad, pero debes asegurarte que las variables
 apunten correctamente a las carpetas que tengas
 en tu espacio de trabajo, ya que sinó, el 
