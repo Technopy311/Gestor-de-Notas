@@ -1,0 +1,6 @@
+# All archives that are not necessary.
+*.txt
+*.png
+*.jpg
+
+/.idea
