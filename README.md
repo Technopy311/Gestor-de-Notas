@@ -1,6 +1,13 @@
 <h1 align="center">
 	Grade/Mark manager
 </h1>
+
+<h3 align="center">
+	You can find this readme in spanish too:
+	<a href="https://github.com/Technopy311/Gestor-de-Notas/blob/main/README_es.md">
+	Spanish version.
+	</a>	
+</h3>
 <p align="center">
 	<img height:300px; width:300px;" src="https://github.com/Technopy311/Gestor-de-Notas/blob/main/Mark_Manager.png">
 </p>
@@ -12,13 +19,7 @@
 	<br>Which isn't complete yet.
 </h3>
 
-<h3 align="center">
-	You can find this readme in spanish too:
-</h3>
 
-<a align="center" href="https://github.com/Technopy311/Gestor-de-Notas/blob/main/README_es.md">
-	Spanish version.
-</a>
 
 <h2>
 	Preparing the Enviroment:
