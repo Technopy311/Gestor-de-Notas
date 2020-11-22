@@ -11,29 +11,29 @@
 <h3>
 	Puedes encontrar este readme en inglés tambíen
 </h3>
-
-<a href="https://github.com/Technopy311/Gestor-de-Notas/blob/main/README.md">Versión en inglés.</a>
-<br>
+<a href="">
+	Versión en inglés.
+</a>
 
 <h2>
 	Preparando ambiente:
 </h2>
 
 <h4 align="center">
-	En la carpeta/lugar donde se encuentre el programa main.py
-	debe haber una carpeta llamada db y dentro de esta
-	una subcarpeta llamada asig.
+	En la carpeta/lugar donde se encuentre el programa <b>main.py</b> is
+	debe haber una carpeta llamada <b>db</b> y dentro de esta
+	una subcarpeta llamada <b>asig</b>.
 	debería verse así:
 </h4>
 
 <img align="center" src="https://github.com/Technopy311/Gestor-de-Notas/blob/main/estructura_carpetas.png" alt="Estructura de carpetas." style="width=455px;height=226px">
 
 <h2>
-	Cambiando las variables de carpetas:
+	Cambiando las variables globales de las carpetas:
 </h2>
 
 <h4 align="center">
-	En main.py en las líneas 5 y 6, encontrarás
+	En <b>main.py</b> en las líneas 5 y 6, encontrarás
 	dos variables globales, las cuales indican 
 	las carpetas a usar para guardar los archivos.
 </h4>
@@ -49,14 +49,14 @@
 </h4>
 
 <h2>
-	Despedida
+	Saludos
 </h2>
 
 <h4>
 	Espero que disfrutes el programa, 
-	el cual está de hecho, aún en desarrollo,
-	si encuentras algún error, estaria 
-	muy agradecido que lo puedas avisar
+	el cual <b>está de hecho, aún en desarrollo,</b>
+	si encuentras algún error, estaría 
+	muy agradecido que lo puedas reportar
 	en los comentarios del proyecto, para así
-	acelerar el proyecto, gracias y adios.
+	acelerar el proyecto, muchas gracias.
 </h4>

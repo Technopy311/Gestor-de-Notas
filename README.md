@@ -62,5 +62,5 @@ It should look like this:
 	if you find some bug/issue, i will be pretty thankful you
 	to report it on the comments, and even more if you post some
 	fixing to it, that way i can work faster on it.
-	Thanks & Bye.
+	many many Thanks.
 </h4>
