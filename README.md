@@ -1,6 +1,7 @@
-<h1>
+<h1 align="center">
 	Grade/Mark manager
 </h1>
+<img align="center" src="https://github.com/Technopy311/Gestor-de-Notas/blob/main/Mark_Manager.png">
 <h3>
 	This is an mark manager writen in python, still in development.
 </h3>
