@@ -11,16 +11,19 @@
 <p align="center">
 	<img height:300px; width:300px;" src="https://github.com/Technopy311/Gestor-de-Notas/blob/main/Mark_Manager.png">
 </p>
+<br>															
 <h3 align="left">
 	This is an mark manager writen in python, still in development.
-</h3>
+</h3
+<br>		
 <h3 align="center">
 	The most updated version is: 1.0, codename: Starting. 
 	<br>Which isn't complete yet.
 </h3>
-
-
-
+		  
+<br>
+<br>
+		  
 <h2>
 	Preparing the Enviroment:
 </h2>
