@@ -13,11 +13,10 @@
 </p>
 <br>
 <br>
-<h3 align="left">
+<h3 align="center">
 	This is an mark manager writen in python, still in development.
 </h3
 <br>		
-<br>				
 <h3 align="center">
 	The most updated version is: 1.0, codename: Starting. 
 	<br>Which isn't complete yet.
