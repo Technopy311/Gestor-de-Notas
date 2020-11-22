@@ -1,4 +1,5 @@
-<h1>Gestor-de-Notas</h1>
+<h1>Gestor de Notas</h1>
+<p align="center" style="font-size:50px">&#1F600;</p>
 <h3>Este es un gestor de notas escrito en python, aún en desarrollo.</h3>
 
 <h2>Preparando ambiente:</h2>
