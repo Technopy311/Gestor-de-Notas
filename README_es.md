@@ -12,7 +12,7 @@
 	Puedes encontrar este readme en inglés tambíen
 </h3>
 
-<a href="">Versión en inglés.</a>
+<a href="https://github.com/Technopy311/Gestor-de-Notas/blob/main/README.md">Versión en inglés.</a>
 <br>
 
 <h2>
