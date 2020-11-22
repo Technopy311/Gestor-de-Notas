@@ -31,11 +31,11 @@ en tu espacio de trabajo, ya que <b>sinó, el
 
 <h2>Despedida</h2>
 
-<h5>
+<h4>
 Espero que disfrutes el programa, 
 el cual está de hecho, aún en desarrollo,
 si encuentras algún error, estaria 
 muy agradecido que lo puedas avisar
 en los comentarios del proyecto, para así
 acelerar el proyecto, gracias y adios.
-</h5>
+</h4>
