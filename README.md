@@ -31,7 +31,7 @@ It should look like this:
 </h4>
 
 <p align="center">
-	<img height=637px width=317px src="https://github.com/Technopy311/Gestor-de-Notas/blob/main/estructura_carpetas.png" alt="Estructura de carpetas.">
+	<img height=317px width=637px src="https://github.com/Technopy311/Gestor-de-Notas/blob/main/estructura_carpetas.png" alt="Estructura de carpetas.">
 </p>
 
 <h2>
@@ -43,7 +43,7 @@ It should look like this:
 </h4>
 
 <p align="center">
-	<img height=637px width=317px src="https://github.com/Technopy311/Gestor-de-Notas/blob/main/variables_globales.png" alt="Variables globales.">
+	<img height=317px width=637px src="https://github.com/Technopy311/Gestor-de-Notas/blob/main/variables_globales.png" alt="Variables globales.">
 </p>
 
 <h4 align="center">
