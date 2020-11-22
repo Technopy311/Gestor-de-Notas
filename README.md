@@ -1,7 +1,9 @@
 <h1 align="center">
 	Grade/Mark manager
 </h1>
-	<img style="margin-left:auto; margin-right:auto; height:70%; width:70%;" src="https://github.com/Technopy311/Gestor-de-Notas/blob/main/Mark_Manager.png">
+<p align="center">
+	<img height:300px; width:300px;" src="https://github.com/Technopy311/Gestor-de-Notas/blob/main/Mark_Manager.png">
+</p>
 <h3>
 	This is an mark manager writen in python, still in development.
 </h3>
@@ -28,7 +30,9 @@ there must be another folder called <b>asig</b>.
 It should look like this:
 </h4>
 
-<img style="height:70%; width:70%;" src="https://github.com/Technopy311/Gestor-de-Notas/blob/main/estructura_carpetas.png" alt="Estructura de carpetas." style="width=455px;height=226px">
+<p align="center">
+	<img height=637px width=317px src="https://github.com/Technopy311/Gestor-de-Notas/blob/main/estructura_carpetas.png" alt="Estructura de carpetas.">
+</p>
 
 <h2>
 	Changing the global & enviroment variables:
@@ -38,7 +42,9 @@ It should look like this:
 	In main.py on lines 5 & 6, you will find two global variables, the ones that point to the folders where all information will be saved to.
 </h4>
 
-<img style="height:70%; width:70%;" src="https://github.com/Technopy311/Gestor-de-Notas/blob/main/variables_globales.png" alt="Variables globales." style="width=455px;height=226px">
+<p align="center">
+	<img height=637px width=317px src="https://github.com/Technopy311/Gestor-de-Notas/blob/main/variables_globales.png" alt="Variables globales.">
+</p>
 
 <h4 align="center">
 	You can modify this ones as your preference, but you must <b>be shure that this ones are correctly pointing to the folders you want</b> and have on your workflow, because <b>otherwise, the program wont run properly.</b>
