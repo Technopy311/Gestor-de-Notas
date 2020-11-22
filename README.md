@@ -59,7 +59,7 @@ It should look like this:
 
 <h4>
 	I hope you to enjoy the program, which <b>still in development</b>,
-	if you find some bug/issue, i would be pretty thankful you
+	if you find some bug/issue, i will be pretty thankful you
 	to report it on the comments, and even more if you post some
 	fixing to it, that way i can work faster on it.
 	Thanks & Bye.
