@@ -40,7 +40,7 @@ def ingreso():
         except ValueError:
             print("La opción debe ser numérica. \n")
             exit()
-
+        print("Ahora ingrese las notas del estudiante con punto decimal, ejemplo: 5.6")
         nota1 = input("Ingrese la primera nota:")
         nota2 = input("Ingrese la segunda nota:")
         nota3 = input("Ingrese la tercera nota:")
