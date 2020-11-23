@@ -4,3 +4,7 @@
 *.jpg
 
 /.idea
+
+#The deprecated mains
+English_Main-deprecated.py
+Spanish_Main-deprecated.py
