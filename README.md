@@ -18,7 +18,7 @@
 </h3
 <br>		
 <h3 align="center">
-	The most updated version is: 1.0, codename: Starting. 
+	The most updated version is: 1.5, codename: Starting. 
 	<br>Which isn't complete yet.
 </h3>
 		  
