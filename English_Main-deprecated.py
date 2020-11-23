@@ -6,10 +6,10 @@ DB = "./db/"
 SUBJECTS = "./db/asig/"
 
 
-def entering():
+def ingreso():
     names = open("names.txt", "a")
     subject = " "
-    note_saving = 0
+    notesaving = 0
     averages = " "
     x = 0
     global approved
@@ -41,7 +41,7 @@ def entering():
             print("The option must be numeric. \n")
             exit()
 
-        print("Now please enter the marks with decimal point, example: 5.6")        
+        print("Now please enter the marks with decimal point, example: 5.6")
         note1 = input("Enter the first mark:")
         note2 = input("Enter the second mark: ")
         note3 = input("Enter the third mark: ")
@@ -62,24 +62,24 @@ def entering():
 
         if asig == 1:
             subject = "Calculus"
-            note_saving = 1
+            notesaving = 1
         elif asig == 2:
             subject = "Programming"
-            note_saving = 2
+            notesaving = 2
         elif asig == 3:
             subject = "Ethics"
-            note_saving = 3
+            notesaving = 3
         elif asig > 3 or asig < 1:
             print("That subject doesn't exists. \n")
             exit()
 
-        if note_saving == 1:
+        if notesaving == 1:
             path = (SUBJECTS + "calculus.txt")
             averages = open(path, 'a')
-        elif note_saving == 2:
+        elif notesaving == 2:
             path = (SUBJECTS + "programation.txt")
             averages = open(path, 'a')
-        elif note_saving == 3:
+        elif notesaving == 3:
             path = (SUBJECTS + "ethics.txt")
             averages = open(path, 'a')
         else:
@@ -152,20 +152,29 @@ def entering():
             pass
 
 
-def watch():
+def visualizar():
     def options():
         print("###########################################################################")
         print("What would you like to do?. Choose an option:\n")
         print("##(1) Show the information of an student.")
-        print("##(2) List the existent archives in DB.")
+        print("##(2) Show the total average of every subject.")
+        print("##(3) Show the name of a student, his subject and marksº,"
+              "\n      if the average is higher or equal to 4.0")
+        print("##(4) Show the highest average and the name of the studentº,"
+              "\n      the subject and all his marks.")
+        print("##(5) List the existen archives in DB.")
         print("###########################################################################")
-        user_option = input(":")
+        useroption = input(":")
         try:
-            user_option = int(user_option)
+            useroption = int(useroption)
         except ValueError:
             print("The option must be numeric.")
             exit()
-        return user_option
+        return useroption
+
+    def unexistent():
+        print("This options hasn't been programmed yet.")
+        exit()
 
     def listing():
         archives = os.listdir(DB)
@@ -175,7 +184,7 @@ def watch():
 
     option = options()
 
-    def all_students():
+    def allstudents():
         archives = os.listdir(DB)
         value = input("Choose an archive by the name and extension \'example.txt\':")
 
@@ -189,12 +198,54 @@ def watch():
         student = student.read()
         print("\n" + student + "\n")
 
+    def averagelisting():
+        print("Choose an subject:")
+        print("(1) Calculus")
+        print("(2) Ethics")
+        print("(3) Programation")
+        subject = input(":")
+
+        try:
+            subject = int(subject)
+        except ValueError:
+            print("The option must be numeric.")
+            exit()
+
+        if subject == 1:
+            archivo = open(SUBJECTS + "calculus.txt", "r")
+            average = 0
+            counter = len(archivo.readlines())
+
+            for linea in archivo.readlines():
+                linea = int(linea)
+                print("Value of line " + str(counter))
+                print(linea)
+                average = (average + linea)
+
+            average = (average/counter)
+            subject = "Calculus"
+            average = str(average)
+            print("average str:"+average)
+            return average, subject
+
+        elif subject == 2:
+            pass
+        elif subject == 3:
+            pass
+
     if option == 1:
         print("Showing existent archives from the DB:\n")
         listing()
-        all_students()
+        allstudents()
         exit()
     elif option == 2:
+        averageasig, asign = averagelisting()
+        print("The total average of the subject: " + asign + " is : " + averageasig)
+    elif option == 3:
+        unexistent()
+    elif option == 4:
+        unexistent()
+    elif option == 5:
         listing()
     else:
         print("\nThat option doesn't exists.\n")
@@ -225,10 +276,10 @@ def menu():
         exit()
     elif option == 1:
         print("Chosen option " + str(option) + "\n")
-        entering()
+        ingreso()
     elif option == 2:
         print("Chosen option " + str(option) + "\n")
-        watch()
+        visualizar()
     elif option == 3:
         print("Chosen option " + str(option) + "\n")
         print("Thank you to using our manager :D.")

@@ -156,7 +156,12 @@ def visualizar():
         print("###########################################################################")
         print("¿Qué desea hacer?, Escoja una opción:\n")
         print("##(1) Mostrar la información de un estudiante.")
-        print("##(2) Listar los archivos existentes en la DB.")
+        print("##(2) Mostrar los promedios general de todas las asignaturas.")
+        print("##(3) Mostrar el nombre de un estudiante, sus asignaturas y notas,"
+              "\n      cuando el promedio sea mayor a 4.0.")
+        print("##(4) Mostrar el promedio más alto obtenido junto al nombre del estudiante,"
+              "\n      asignatura y sus calificaciones.")
+        print("##(5) Listar los archivos existentes en la DB.")
         print("###########################################################################")
         valor = input(":")
         try:
@@ -165,6 +170,10 @@ def visualizar():
             print("La opción debe ser numérica.")
             exit()
         return valor
+
+    def unexistent():
+        print("La opción no ha sido programada aún.")
+        exit()
 
     def listing():
         archivos = os.listdir(DB)
@@ -188,12 +197,54 @@ def visualizar():
         estudiante = estudiante.read()
         print("\n" + estudiante + "\n")
 
+    def promedioslisting():
+        print("Escoja una asignatura:")
+        print("(1) Cálculo")
+        print("(2) Ética")
+        print("(3) Programación")
+        materia = input(":")
+
+        try:
+            materia = int(materia)
+        except ValueError:
+            print("La opción debe ser numérica.")
+            exit()
+
+        if materia == 1:
+            archivo = open(ASIGNATURAS + "calculo.txt", "r")
+            promedio = 0
+            counter = len(archivo.readlines())
+
+            for linea in archivo.readlines():
+                linea = int(linea)
+                print("Valor de la linea " + str(counter))
+                print(linea)
+                promedio = (promedio + linea)
+
+            promedio = (promedio/counter)
+            asignatura = "Cálculo"
+            promedio = str(promedio)
+            print("promedio str:"+promedio)
+            return promedio, asignatura
+
+        elif materia == 2:
+            pass
+        elif materia == 3:
+            pass
+
     if opcion == 1:
         print("Mostrando archivos existentes en la DB:\n")
         listing()
         allstudents()
         exit()
     elif opcion == 2:
+        promedioasig, asign = promedioslisting()
+        print("El promedio total de la asignatura: " + asign + " es de: " + promedioasig)
+    elif opcion == 3:
+        unexistent()
+    elif opcion == 4:
+        unexistent()
+    elif opcion == 5:
         listing()
     else:
         print("\nEsa opción no existe.\n")
